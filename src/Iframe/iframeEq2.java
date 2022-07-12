@@ -29,6 +29,7 @@ public class iframeEq2 {
 		driver.switchTo().parentFrame();// switch focus from frame to main page
 		String text2 = driver.findElement(By.linkText("Pavilion")).getText();
 		System.out.println(text2);
+		System.out.println("Hi This Is my changed");
 	}
 
 }
